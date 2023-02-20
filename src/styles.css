@@ -1,0 +1,51 @@
+.top-header {
+  /* width: 100%;
+  background-image: url(images/main-headshot.jpeg);
+  object-fit: fill;
+  position: relative;
+  background-position: center;
+  padding-bottom: 60px; */
+}
+
+body {
+  width: 100%;
+  background-image: url(images/main-headshot.jpeg);
+  object-fit: fill;
+
+  background-position: center;
+  padding-bottom: 60px;
+}
+
+a.nav-link,
+a.navbar-brand {
+  color: white;
+}
+h1,
+h2,
+p {
+  font-family: "Roboto";
+}
+h1 {
+  color: white;
+  text-align: center;
+
+  /* font-weight: bold; */
+  font-size: 220px;
+  padding-top: 350px;
+  position: sticky;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  position: sticky;
+}
+
+p {
+  color: #01172b;
+  background-color: white;
+}
+
+container {
+  width: 100%;
+}
