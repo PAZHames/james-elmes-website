@@ -1,0 +1,54 @@
+:root {
+  --highlight-color: #8d601e;
+  --primary-color: #0e100f;
+  --secondary-color: #eee7dd;
+  --default-heading-font: "Roboto", serif;
+  --default-body-font: "Lora", serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: var(--default-heading-font);
+  font-size: 140px;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-family: var(--default-body-font);
+}
+.navbar {
+  font-family: var(--default-body-font);
+  background-color: var(--primary-color);
+}
+
+.index-col {
+  padding: 0px;
+}
+
+.index-h3-col {
+  background-color: var(--primary-color);
+}
+.index-image-col {
+  height: 115vh;
+  background-image: url(images/index-image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero h3 {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.forename-h1 {
+  text-align: right;
+  padding-top: 512px;
+  padding-right: 20px;
+}
+
+.surname-h1 {
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 20px;
+}
