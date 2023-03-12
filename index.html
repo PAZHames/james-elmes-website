@@ -25,32 +25,60 @@
     <title>James Elmes</title>
   </head>
   <body>
-    <div class="hero">
-      <nav>
-        <div class="container-fluid">
-          <ul>
-            <li class="active">Home</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">James Elmes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
           </ul>
         </div>
-      </nav>
-
+      </div>
+    </nav>
+    <div class="hero">
       <div class="row">
-        <div class="col-md index-col index-image-col">
+        <div class="col-md-6 index-col index-image-col">
           <h1 class="forename-h1">James</h1>
+          <div class="index-contact">
+            <h3 class="index-call">Get in touch</h3>
+          </div>
         </div>
-        <div class="col-md index-col index-h3-col">
-          <h3>Actor</h3>
-          <br />
-          <h3>Presenter</h3>
-          <br />
-          <h3>Musician</h3>
+        <div class="col-md-6 index-col index-h3-col">
+          <div class="index-h3s">
+            <h3>Actor</h3>
+            <br />
+            <h3>Presenter</h3>
+            <br />
+            <h3>Musician</h3>
+          </div>
           <h1 class="surname-h1">Elmes</h1>
+          <div class="index-contact"></div>
         </div>
       </div>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
