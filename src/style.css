@@ -19,19 +19,7 @@ h3 {
   color: white;
   font-family: var(--default-body-font);
 }
-i {
-  color: white;
-  font-size: 24px;
-  padding: 20px;
-  border-radius: 50%;
-}
-i:hover {
-  cursor: pointer;
-  background-color: white;
-  border-radius: 50%;
-  color: var(--primary-color);
-  transition: var(--default-transition);
-}
+
 .navbar {
   font-family: var(--default-body-font);
   background-color: var(--primary-color);
@@ -90,6 +78,20 @@ i:hover {
   padding-top: 80px;
   padding-bottom: 20px;
   background-color: var(--primary-color);
+}
+
+.social-links i {
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.social-links i:hover {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  color: var(--primary-color);
+  transition: var(--default-transition);
 }
 .index-call {
   text-align: center;
