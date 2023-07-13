@@ -7,6 +7,31 @@
   --default-transition: 250ms all ease-in-out;
 }
 
+/* Utilities */
+
+.top-padding {
+  padding-top: 50px;
+}
+
+.paragraph {
+  font-family: var(--default-body-font);
+  font-size: 24px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.white-paragraph {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -106,26 +131,23 @@ h3 {
 }
 .written-link:hover {
   text-decoration: underline;
+  transition: var(--default-transition);
 }
 .written-link:visited {
   color: white;
 }
 .index-call-spotlight:hover {
   text-decoration: underline;
+  transition: var(--default-transition);
+
 }
 .body-about {
   background-color: var(--primary-color);
 }
-.about-paragraph,
-.acting-highlights-p {
-  font-family: var(--default-body-font);
-  text-align: center;
-  font-size: 18px;
-  padding: 60px;
-}
 
-.about-paragraph {
-  color: white;
+.work-paragraph {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .about-image-col {
@@ -133,7 +155,6 @@ h3 {
 }
 
 .work-header,
-.work-sub-section,
 .acting-images-row {
   padding-left: 60px;
   padding-right: 60px;
@@ -147,7 +168,13 @@ h3 {
   text-align: center;
   font-family: var(--default-body-font);
   font-size: 18px;
+  padding-bottom: 20px;
 }
+
+.work-shortcut {
+ display: inline;
+}
+
 .work-shortcut-divider {
   opacity: 0.5;
 }
@@ -160,15 +187,14 @@ h3 {
 .work-shortcut-link:hover {
   text-decoration: underline;
   opacity: 1;
+  transition: var(--default-transition);
+
 }
 
 .work-shortcut-link:visited {
   color: white;
 }
-.armchair-analyst-banner {
-  padding-left: 100px;
-  padding-right: 100px;
-}
+
 .contact-btn {
   color: white;
   font-family: var(--default-body-font);
@@ -187,6 +213,7 @@ h3 {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   padding-bottom: 60px;
+  margin: 0;
 }
 
 .work-sub-header {
@@ -227,16 +254,26 @@ h3 {
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
-.acting-highlights-p {
-  color: var(--primary-color);
-  padding-top: 0px;
-}
 
 .contact-page-details {
   text-align: center;
   margin-top: 40px;
   padding: 60px;
   font-family: var(--default-body-font);
+}
+
+.contact-headings {
+  font-size: 50px;
+}
+
+.armchair-analyst-banner {
+  width: 100%;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.analyst-image {
+  padding: 0;
 }
 
 @media (max-width: 768px) {
