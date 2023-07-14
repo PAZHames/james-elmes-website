@@ -45,6 +45,14 @@ h3 {
   font-family: var(--default-body-font);
 }
 
+footer {
+  font-family: var(--default-body-font);
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 20px;
+}
+
 .navbar {
   font-family: var(--default-body-font);
   background-color: var(--primary-color);
@@ -61,7 +69,9 @@ h3 {
 .index-col {
   padding: 0px;
 }
-
+.index-body {
+  background-color: var(--primary-color);
+}
 .index-h3-col {
   background-color: var(--primary-color);
 }
@@ -91,6 +101,10 @@ h3 {
   padding-top: 105px;
   padding-bottom: 90px;
   padding-left: 20px;
+}
+
+.rest-h1 {
+  padding-top: 60px;
 }
 
 #navbarSupportedContent {
@@ -200,7 +214,7 @@ h3 {
   font-family: var(--default-body-font);
   background-color: var(--highlight-color);
   padding: 10px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .contact-btn:hover {
   color: white;
@@ -263,7 +277,8 @@ h3 {
 }
 
 .contact-headings {
-  font-size: 50px;
+  font-size: 42px;
+  padding-bottom: 30px;
 }
 
 .armchair-analyst-banner {
@@ -276,23 +291,109 @@ h3 {
   padding: 0;
 }
 
+.small-index {
+  display: none;
+}
+
+.light-footer {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 779px) {
+
+  .index-col {
+display: none;
+}
+
+.small-index {
+  display: block;
+}
+
+.small-index-image {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.name {
+  font-size: 44px;
+  margin-bottom: 60px;
+}
+
+}
+
 @media (max-width: 768px) {
   .rest-h1 {
     font-size: 56px;
+    padding-top: 30px;
+  }
+
+  .work-header {
+    padding: 0;
+  }
+
+  .contact-headings {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .contact-page-details {
+    padding: 0px;
+
+  }
+
+  .work-sub-header {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .work-sub-section {
+    padding-bottom: 10px;
   }
   .about-image-col {
     padding-top: 20px;
     padding-bottom: 0px;
   }
-  .contact-page-details,
+
   .about-paragraph {
     padding-top: 20px;
   }
 
   .about-paragraph,
-  .acting-highlights-p {
+  .paragraph {
     font-size: 12px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .optional-image {
+    display: none;
+  }
+
+  .small-contact-btn {
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+  }
+
+  .small-contact-btn-link {
+    font-size: 12px;
+  }
+
+  .large-contact-btn {
+    display: none;
+  }
+
+  .video {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 10px;
+    padding: 10px;
   }
 }
